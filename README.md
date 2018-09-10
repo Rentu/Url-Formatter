@@ -1,1 +1,1 @@
-# Url-Formatter
+Chrome -> 更多工具 -> 扩展程序 -> 加载已解压的扩展程序

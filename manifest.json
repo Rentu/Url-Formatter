@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+	"name": "Url formatter",
+	"version": "1.0.0",
+	"description": "Url formatter",
+	"icons": {
+        "48": "images/ico.png"
+    },
+    "content_scripts":[
+    	{
+    		"js":["main.js"],
+    		"matches": [
+		      "http://*/*",
+		      "https://*/*"
+		    ],
+		    "run_at":"document_end"
+    	}
+    ],
+	"browser_action": {
+		"default_icon": {
+            "48": "images/ico.png"
+        },
+		"default_title": "Url formatter"
+	},
+	"permissions": [
+        "tabs"
+    ]
+}
